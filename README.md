@@ -11,7 +11,7 @@ hyperparameter tuning via GridSearchCV and RandomizedSearchCV with 5-fold strati
 cross-validation, and (4) detailed analysis of why tuning produces modest improvements on 
 expertly-engineered features. 
 Results demonstrate that all three models achieve high classification accuracy: Logistic 
-Regression (95.52%), Random Forest (92.91%), and SVM (95.18%). After hyperparameter 
+Regression (95.52%), Random Forest (92.81%), and SVM (95.18%). After hyperparameter 
 tuning, SVM achieves the best performance at 95.42% accuracy (C=10, gamma='scale'), 
 representing a +0.24% improvement. The modest gains from tuning are attributed to the 
 high-quality feature engineering in the UCI HAR dataset, near-optimal default parameters in 
